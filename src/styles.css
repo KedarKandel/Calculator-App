@@ -14,7 +14,11 @@
     grid-template-columns: repeat(4, 7rem);
     grid-template-rows: minmax(7rem, auto) repeat(5, 7rem);
   }
-  
+  @media only screen and (max-width: 500px) and (min-width: 280px) {
+  .calculator-grid{
+    grid-template-columns: repeat(4, 5rem); 
+  }
+  }
   .calculator-grid > button {
     cursor: pointer;
     font-size: 2rem;
@@ -22,6 +26,11 @@
     outline: none;
     background-color: rgba(255, 255, 255, .75);
   }
+  @media only screen and (max-width: 500px) and (min-width: 280px) {
+    .calculator-grid > button{
+      font-size: 1.5rem;
+    }
+    }
   
   .calculator-grid > button:hover,
   .calculator-grid > button:focus {
