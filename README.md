@@ -1,4 +1,5 @@
- Calculator-App
+ ## Calculator-App
+ 
 This is a simple calculator app built with React. It allows users to perform  arithmetic calculations.
 
 How to Use
